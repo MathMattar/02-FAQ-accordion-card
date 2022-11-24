@@ -8,6 +8,7 @@ main {
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
 }
 
 .container {}
@@ -31,7 +32,9 @@ main {
     top: 15rem;
 }
 
-.container-content {
+/* ------------------------------ */
+
+.container-content-main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -41,6 +44,8 @@ main {
     background-color: #fff;
 }
 
+.container-FAQ {}
+
 .title {
     font-size: 4rem;
     font-weight: 700;
@@ -48,37 +53,32 @@ main {
     margin: 2rem 0 3rem;
 }
 
-.toggle-list {}
-
-.question {
-    font-size: 1.2rem;
-    margin: .5rem 0;
-}
-
-.action-btn {
-    
-}
-
-.toggle {
+.content-FAQ {
     display: grid;
     grid-template-columns: 1fr 1rem;
     align-items: center;
     margin: 1.2rem 0;
 }
 
-.answer {
-    font-size: 1rem;
-    margin: .5rem 0 0 ;
+.headline {
+    font-size: 1.2rem;
+    margin: .5rem 0;
 }
 
-.hide {
-    display: none;
+.action {
+    cursor: pointer;
 }
 
 .icon {
     max-width: 1rem;
     max-height: 0.7rem;
 }
+
+.answer {
+    font-size: 1rem;
+    margin: .5rem 0 0;
+}
+
 
 .line {
     border-bottom: 0.05rem solid hsl(240, 5%, 91%);

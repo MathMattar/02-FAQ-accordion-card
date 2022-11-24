@@ -1,26 +1,48 @@
-var btn = document.querySelector('.action-btn');
-var answer = document.querySelectorAll('.toggle');
+/* let btn = document.querySelector('.button');
 
-btn.addEventListener("click", ()=>{
+btn.addEventListener("click", function () {
 
-    answer.forEach(el => {    
-    el.addEventListener("click", function (e) {
-        
-        e.preventDefault ();
-        
+    let answer = document.querySelector('.toggle');
 
-    })
-    })
+    answer.classList.toggle('hide');
+
 });
 
 
+console.log(btn);
+console.log(answer);
+ */
 
+document.addEventListener('DOMContentLoaded', getClickedElment);
 
+function getClickedElement() {
 
-/*  var answer = document.getElementById('toggle#2');
-    var answer = document.getElementById('toggle#3');
-    var answer = document.getElementById('toggle#4');
-    var answer = document.getElementById('toggle#5'); */
+    document.querySelectorAll('.action').forEach(item => {
 
+        item.addEventListener('click', function (e) {
 
-    /* classList.toggle("hide"); */
+            e.preventDefault();
+
+            let area = item.closest('.content-FAQ').querySelectorAll('.answer');
+
+            justToggle(area);
+
+        })
+
+    })
+
+}
+
+function justToggle(area){
+    if (area.style.display === 'none') {
+        
+        area.style.display = 'block';
+        area.closest('.content-FAQ').classList.add('active');
+
+    } else {
+
+        area.style.display = 'none';
+        area.closest('.content-FAQ').classList.remove('active');
+
+    }
+}
