@@ -1,48 +1,14 @@
-/* let btn = document.querySelector('.button');
+var question = document.getElementsById("question");
+var i;
 
-btn.addEventListener("click", function () {
-
-    let answer = document.querySelector('.toggle');
-
-    answer.classList.toggle('hide');
-
-});
-
-
-console.log(btn);
-console.log(answer);
- */
-
-document.addEventListener('DOMContentLoaded', getClickedElment);
-
-function getClickedElement() {
-
-    document.querySelectorAll('.action').forEach(item => {
-
-        item.addEventListener('click', function (e) {
-
-            e.preventDefault();
-
-            let area = item.closest('.content-FAQ').querySelectorAll('.answer');
-
-            justToggle(area);
-
-        })
-
+for (i = 0; i < question.length; i++) {
+    question[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var answer = this.nextElementSibling;
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+        } else {
+            answer.style.display = "block";
+        }
     })
-
-}
-
-function justToggle(area){
-    if (area.style.display === 'none') {
-        
-        area.style.display = 'block';
-        area.closest('.content-FAQ').classList.add('active');
-
-    } else {
-
-        area.style.display = 'none';
-        area.closest('.content-FAQ').classList.remove('active');
-
-    }
 }
