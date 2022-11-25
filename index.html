@@ -22,29 +22,26 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-    <!-- JS -->
-    <script src="assets/js/main.js" type="text/javascript"></script>
-
 </head>
 
 <body>
     <main>
         <section class="container">
-            <div class="img-woman-desktop" aria-label="Ilustração de uma mulher olhando para uma tela"></div>
-
-            <div class="img-box-desktop" aria-label="Ilustração de uma caixa com um arroba"></div>
-
             <section id="white-box">
 
-                <div id="img-woman-mobile" class="child" arial-label="Ilustração de uma mulher olhando para uma tela"></div>
+                <section class="images">
+                    <div class="img-box-desktop" aria-label="Ilustração de uma caixa com um arroba"></div>
+                    <div class="img-woman-desktop" aria-label="Ilustração de uma mulher olhando para uma tela"></div>
+                    <div class="img-woman-mobile" class="child"
+                        arial-label="Ilustração de uma mulher olhando para uma tela"></div>
+                </section>
 
-                <div id="text-faq" class="child">
-
+                <section class="text-white-box" class="child">
                     <h1 class="title">FAQ</h1>
 
                     <div id="questions-answers">
                         <div class="set-questions-answers"></div>
-                        <button type="button" class="question">How many team members can I invite?
+                        <button type="button" id="question">How many team members can I invite?
                             <img src="images/icon-arrow-down.svg" alt="Ícone fleca para baixo/para cima"></button>
                         <div class="answer">
                             <p>Resposta</p>
@@ -54,7 +51,7 @@
 
                     <div id="questions-answers">
                         <div class="set-questions-answers"></div>
-                        <button type="button" class="question">What is the maximum file upload size?
+                        <button type="button" id="question">What is the maximum file upload size?
                             <img src="images/icon-arrow-down.svg" alt="Ícone fleca para baixo/para cima"></button>
                         <div class="answer">
                             <p>Resposta</p>
@@ -64,7 +61,7 @@
 
                     <div id="questions-answers">
                         <div class="set-questions-answers"></div>
-                        <button type="button" class="question">How do I reset my password?
+                        <button type="button" id="question">How do I reset my password?
                             <img src="images/icon-arrow-down.svg" alt="Ícone fleca para baixo/para cima"></button>
                         <div class="answer">
                             <p>Resposta</p>
@@ -74,7 +71,7 @@
 
                     <div id="questions-answers">
                         <div class="set-questions-answers"></div>
-                        <button type="button" class="question">Can I cancel my subscription?
+                        <button type="button" id="question">Can I cancel my subscription?
                             <img src="images/icon-arrow-down.svg" alt="Ícone fleca para baixo/para cima"></button>
                         <div class="answer">
                             <p>Resposta</p>
@@ -84,20 +81,25 @@
 
                     <div id="questions-answers">
                         <div class="set-questions-answers"></div>
-                        <button type="button" class="question">Do you provide additional support?
+                        <button type="button" id="question">Do you provide additional support?
                             <img src="images/icon-arrow-down.svg" alt="Ícone fleca para baixo/para cima"></button>
                         <div class="answer">
                             <p>Resposta</p>
                         </div>
                         <hr>
                     </div>
-                </div>
+                </section>
             </section>
-            <div class="footer">
-                <p>Desenvolvido por <a href="https://github.com/mathmattar">Mathews Mattar</a>, a partir do desafio de <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a></p>
-            </div>
+            <section class="footer">
+                <p>Desenvolvido por <a href="https://github.com/mathmattar">Mathews Mattar</a>, a partir do desafio de
+                    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>
+                </p>
             </section>
-        </main>
+        </section>
+    </main>
+
+    <!-- JS -->
+    <script src="assets/js/main.js" type="text/javascript"></script>
+
 </body>
-
 </html>
