@@ -3,7 +3,7 @@ var i;
 
 for (i = 0; i < btn.length; i++) {
 
-    pergunta[i].addEventListener("click", function () {
+    btn[i].addEventListener("click", function () {
 
         this.classList.toggle("active");
 
