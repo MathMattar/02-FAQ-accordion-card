@@ -64,7 +64,7 @@ main {
     min-height: 1rem;
 }
 
-#question {
+.question {
     color: #000;
     background-color: #fff;
     display: flex;
@@ -76,10 +76,17 @@ main {
     cursor: pointer;
 }
 
+.question:hover {
+    color: red;
+}
+
 .answer {
-    overflow: hidden;
     display: none;
-    opacity: 70%;
+}
+
+.show {
+    display: block;
+    opacity: .7;
 }
 
 hr {
@@ -89,20 +96,6 @@ hr {
 
 .footer {
     margin: 2rem 0 0;
-}
-
-/*------------------------------------------------*/
-
-button:hover {
-    color: hsl(14, 88% 65%);
-}
-
-#white-box .answer.active {
-    font-weight: 900;
-}
-
-#white-box .answer.active img {
-    transform: rotate(-180deg);
 }
 
 @media only screen and (min-width: 1020px) {
