@@ -31,7 +31,7 @@ main {
 }
 
 .img-woman-mobile {
-    background-image: url(/images/illustration-woman-online-mobile.svg);
+    background-image: url(../../images/illustration-woman-online-mobile.svg);
     background-size: 22rem;
     background-position: top;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ hr {
     }
     
     .img-box-desktop {
-        background-image: url(/images/illustration-box-desktop.svg);
+        background-image: url(../../images/illustration-box-desktop.svg);
         background-size: 12rem;
         background-position: 0rem 3.5rem;
         background-repeat: no-repeat;
@@ -143,7 +143,7 @@ hr {
     }
     
     .img-woman-desktop {
-        background-image: url(/images/illustration-woman-online-desktop.svg);
+        background-image: url(../../images/illustration-woman-online-desktop.svg);
         background-size: 30rem;
         background-position: right;
         background-repeat: no-repeat;
