@@ -5,4 +5,5 @@
     function exibirResposta(e) {
         let resposta = e.target.parentNode.nextElementSibling;
         resposta.classList.toggle('show');
+
     }

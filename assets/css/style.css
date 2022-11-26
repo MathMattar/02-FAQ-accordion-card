@@ -19,7 +19,7 @@ main {
     background-image: url(/images/bg-pattern-mobile.svg);
     background-color: #fff;
     background-repeat: no-repeat;
-    background-size: 24rem;
+    background-size: 22rem;
     background-position-x: center;
     background-position-y: 0rem;
     position: relative;
@@ -32,14 +32,14 @@ main {
 
 .img-woman-mobile {
     background-image: url(/images/illustration-woman-online-mobile.svg);
-    background-size: 25rem;
+    background-size: 22rem;
     background-position: top;
     background-repeat: no-repeat;
     position: absolute;
     height: 30rem;
-    width: 30rem;
-    top: -11.5rem;
-    left: 2.2rem;
+    width: 22rem;
+    top: -10.2rem;
+    left: 3.55rem;
     z-index: 2;
 }
 
@@ -82,6 +82,7 @@ main {
 
 .answer {
     display: none;
+    margin: 0 1rem 0;
 }
 
 .show {
@@ -95,7 +96,9 @@ hr {
 }
 
 .footer {
+    text-align: center;
     margin: 2rem 0 0;
+    line-height: 2;
 }
 
 @media only screen and (min-width: 1020px) {
