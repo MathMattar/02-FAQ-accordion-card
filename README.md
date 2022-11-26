@@ -7,6 +7,7 @@ Esta é uma solução para o desafio do componente do [FAQ accordion card challe
 - [Resumo](#Resumo)
   - [Desafio](#Desafio)
   - [Screenshot](#screenshot)
+  - [Link](#link)
 - [Processo](#Processo)
   - [Construido com](#construido-com)
   - [O que eu aprendi](#o-que-eu-aprendi)
@@ -42,6 +43,8 @@ Os usuários devem ser capazes de:
 <p align="center">
     <img width="1024px" src="/presentation/desktop.png"></img>
 </p>
+
+### Link: https://mathmattar.github.io/FAQ-accordion-card/
 
 ## Processo
 
