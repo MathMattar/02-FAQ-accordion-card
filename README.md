@@ -92,6 +92,7 @@ Utilizar o JS para exibir as respostas:
 - [Dropdown](https://www.w3schools.com/howto/howto_js_dropdown.asp) 
 - [Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
 - [Background](https://www.w3schools.com/css/css_background.asp)
+- [Picture](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_picture)
 
 ## Author
 
