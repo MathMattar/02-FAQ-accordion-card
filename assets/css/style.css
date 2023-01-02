@@ -16,7 +16,7 @@ main {
 }
 
 #white-box {
-    background-image: url(../../images/bg-pattern-mobile.svg);
+    background-image: url(../../assets/images/bg-pattern-mobile.svg);
     background-color: #fff;
     background-repeat: no-repeat;
     background-size: 22rem;
@@ -31,7 +31,7 @@ main {
 }
 
 .img-woman-mobile {
-    background-image: url(../../images/illustration-woman-online-mobile.svg);
+    background-image: url(../../assets/images/illustration-woman-online-mobile.svg);
     background-size: 22rem;
     background-position: top;
     background-repeat: no-repeat;
@@ -83,11 +83,16 @@ main {
 .answer {
     display: none;
     margin: 0 1rem 0;
+    overflow: hidden;
 }
 
-.show {
-    display: block;
+.active img {
     opacity: .7;
+    rotate: 180deg;
+}
+
+.active{
+    font-weight: bold;
 }
 
 hr {
@@ -115,11 +120,11 @@ hr {
     }
     
     #white-box {
-        background-image: url(../../images/bg-pattern-desktop.svg);
+        background-image: url(../../assets/images/bg-pattern-desktop.svg);
         background-position: -38rem -16.75rem;
         background-size: 63rem;
         justify-content: space-between;
-        width: 60vw;
+        width: 50vw;
         margin: 0;
         padding: 2rem 2rem 2rem 0;
     }
@@ -131,7 +136,7 @@ hr {
     }
     
     .img-box-desktop {
-        background-image: url(../../images/illustration-box-desktop.svg);
+        background-image: url(../../assets/images/illustration-box-desktop.svg);
         background-size: 12rem;
         background-position: 0rem 3.5rem;
         background-repeat: no-repeat;
@@ -143,7 +148,7 @@ hr {
     }
     
     .img-woman-desktop {
-        background-image: url(../../images/illustration-woman-online-desktop.svg);
+        background-image: url(../../assets/images/illustration-woman-online-desktop.svg);
         background-size: 30rem;
         background-position: right;
         background-repeat: no-repeat;
@@ -167,6 +172,14 @@ hr {
     .title {
         margin: 3rem 0;
         text-align: left;
+    }
+
+    .question {
+        width: 80%;
+    }
+
+    hr {
+        width: 82%;
     }
 }
 
